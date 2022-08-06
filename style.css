@@ -1,0 +1,49 @@
+body {
+    background: rgb(63,94,251);
+    background: -moz-radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5efb",endColorstr="#fc466b",GradientType=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+span {
+    font-size: 14px;
+    background-color: #121252;
+    padding: 2px;
+    opacity: .5;
+    border-radius: 15px;
+    padding-left: 3px;
+    padding-right: 3px;
+    color: white;
+    mix-blend-mode: multiply;
+}
+h1{
+    font-size: 65px;
+    font-weight: 1000;
+    text-shadow: 2px 2px 2px black;
+    color: black;
+    opacity: .9;
+    mix-blend-mode: multiply;
+    line-height: normal;
+}
+.container {
+    display: flex;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+button {
+    background-color: #121252;
+    color: white;
+    font-weight: bolder;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+}
